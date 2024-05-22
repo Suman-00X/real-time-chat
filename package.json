@@ -4,8 +4,8 @@
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "main": "index.js",
   "scripts": {
-    "dev": "cd backend && index.js",
-    "start": "cd backend && node index.js",
+    "dev": "cd backend && server.js",
+    "start": "cd backend && node server.js",
     "build": "npm install && npm install --prefix backend && npm run build --prefix frontend",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
