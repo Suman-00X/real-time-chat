@@ -8,7 +8,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "https://chat-backend-eewg.onrender.com",
+        target: "http:localhost:7484",
         changeOrigin: true,
         secure: false,
       },
